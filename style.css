@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    font-family:Arial;
+    border: border-box;
+}
+.nav-bar{
+    height:60px;
+    width: 100%;
+    color:white;
+    background-color: #052a2a;
+    display: flex;
+    text-align: center;
+}
+.nav-logo{
+    height:40px;
+    width: 120px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100% ;
+    color: white;
+    margin-top: 2px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+
+/** box two **/
+.icon{
+    display: flex;
+    align-items: center;
+}
+.add1{
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+.add2{
+    margin-left: 4px;
+    font-size: 1.1rem;
+}
+.box2{
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    width: 70px;
+}
+
+/** box 3 **/
+.search{
+   display: flex;
+   height: 44px;
+   margin-left: 10px;
+   margin-top: 12px;
+}
+.all{
+    background-color: beige;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+}
+.sea{
+    width: 752px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    padding-left: 5px;
+    outline: none;
+}
+.search-option{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 50px;
+    padding: auto auto;
+    background-color: rgb(255, 170, 0);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border: none;
+}
+/** Box 4 **/
+.sign{
+    margin-left: 45px;
+    margin-top: 11px;
+
+}
+.li{
+    display:flex;
+    
+}
+.sign > p {
+    font-size: 0.8rem;
+    padding-left: 0%;
+  
+}
+.acco{
+    border: none;
+    background-color:#052a2a ;
+    color: white;
+}
+/** Box 5 **/
+.ord{
+    margin-left:45px;
+    margin-top: 11px; 
+}
+#p1{
+    font-size: 0.8rem;
+}
+#p2{
+    font-size: 1rem;
+}
+/** Box 6 **/
+.car{
+    width:40px;
+    margin-left: 40px;
+    margin-top: 10px; 
+    display: flex;
+}
+#lo{
+    font-size: 2rem;
+    
+}
+.coo{
+    font-size: 1rem;
+    padding-top: 12px;
+}
+/** Menu-Bar **/
+.Menu-bar{
+    height: 39px;
+    width: 100%;
+    background-color: hwb(180 9% 64%);
+    display: flex;
+}
+.bar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.6rem;
+}
+.bar > p{
+    margin-left: 0.4rem;
+}
+.Deal, .Registry, .Cust, .Gift, .Sell {
+    color:white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8rem;
+    font-size: 0.8rem;
+}
+.Shop{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 55rem;
+    font-size: 0.8rem;
+}
+.hero-section{
+    background-image: url( "hero_img.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.hero-msg{
+    height:40px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 25px;
+}
+.hero-msg > .pit{
+    color: #007185;
+    font-size: 0.85rem;
+
+}
+/** shop-section **/
+
+.shop-section{
+    display : flex;
+    justify-content: space-evenly;
+    background-color:  #007185;
+    
+}
+.shop-section > div{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+}
+.shop-section > a{
+    text-decoration: none;
+}
+h3{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.hot, .menu-bar > a{
+    height: 80%;
+    margin: 10px 10px;
+    background-size: cover;
+    text-decoration: none;
+}
+
+/** back **/
+.back{
+    background-color: #007185;
+    height:49px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back > a{
+    color: white;
+    padding-top: 14px;
+}
+.footer1{
+    display: flex;
+    background-color: #007185;
+   
+}
+ul{
+    width: 25%;
+    padding-top: 20px;
+    
+}
+ul > h4, h5{
+    color: #ffffffe9;
+    padding-top: 1rem;
+    font-family: inherit;
+    padding-left: 0%;
+    
+}
+h4:hover, h5:hover{
+    text-decoration: underline;
+}
+/** Footer **/
+.last{
+    background-color: #0a424c;
+    height: 110px;
+    display: block;
+   
+}
+.last-logo{
+    width: auto ;
+    color: #ffffff;
+    margin-left: 47%;
+    height: 52px;
+}
+.last > h5 > span{
+    color: #ffffffaf;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40%;  
+    padding-bottom: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.last > p{
+    color: #ffffffaa;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
